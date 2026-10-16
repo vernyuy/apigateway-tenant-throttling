@@ -1,0 +1,15 @@
+{
+  "name": "tenant-api-keys-demo",
+  "private": true,
+  "description": "A multi-company employee directory API: per-tenant API keys, usage plans and throttling on Amazon API Gateway, with AWS CDK and React",
+  "workspaces": [
+    "infra",
+    "web"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspace=infra",
+    "deploy": "npm run deploy --workspace=infra",
+    "web": "npm run dev --workspace=web"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+cdk.out/
+dist/
+*.js.map
+infra/cdk-outputs.json
+web/.env.local
+.DS_Store
+scripts/
+docs/
